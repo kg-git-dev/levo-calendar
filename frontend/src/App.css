@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+/* The snack bar content is aligned to the left by default, increasing available width centers content */
+.MuiSnackbarContent-message {
+  width: 100% ;
+}
+
+/* ALso hard coding css values for calendar container. This is what felt like worked best */
+
+.Calendar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Calendar__container {
+  margin-top: 30px;
+}
+
+.Calendar__container__content {
+  width: 100%;
+}
+
+.react-calendar {
+  width: 720px !important;
+}
+
+.react-calendar__tile {
+  width: calc(100% / 7);
+  height: 100px; /* Adjust the height as needed */
+  overflow: hidden; /* Ensure content overflow is hidden */
+}
+
+.event-content {
+  font-size: 12px;
+  color: darkblue;
+
+}
+
+
+.custom-list-item {
+  align-items: baseline; /* or any other alignment you prefer */
+}
